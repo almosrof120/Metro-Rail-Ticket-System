@@ -6,6 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:testfile/Components/CustomButton.dart';
 import 'package:testfile/Screens/Log_In/footer.dart';
 import 'package:testfile/Screens/OTP/otp.dart';
+import 'package:testfile/Screens/Splash/splash.dart';
 import '../../Controllers/login_controller.dart';
 import '../../Components/constent.dart';
 import 'Login_TextField.dart';
@@ -71,7 +72,9 @@ class _LoginPageState extends State<LoginPage> {
                         child: Row(
                           children: [
                             IconButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Get.to(SplashScreen());
+                              },
                               icon: Icon(Icons.arrow_back),
                             ),
                             Text(
