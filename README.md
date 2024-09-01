@@ -1,4 +1,4 @@
-# mrts
+# Metro Rail Ticket System (DMTCL)
 
 A new Flutter project.MRT Ticket System Developed a mobile application for the Dhaka Mass Transit Company Limited (DMTCL) using Flutter, designed to streamline the ticketing process for MRT users. The app features a seamless and intuitive interface for purchasing and managing transit tickets, real-time updates on train schedules, and secure payment integration. 
 
